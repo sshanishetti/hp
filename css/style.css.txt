@@ -1,0 +1,113 @@
+header-top {
+  font-size: 12px;
+  padding: 8px;
+  background-color: #222222;
+}
+
+.header-top a {
+  color: #fff;
+}
+
+.header-top ul li {
+  display: inline-block;
+  margin-right: 30px;
+}
+
+.header-top .header-top-left i {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header-top .header-top-left a:hover {
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.header-top .header-top-left a:hover i {
+  color: #fab700;
+}
+
+.header-top .header-top-right {
+  text-align: right;
+}
+
+.header-top .header-top-right a {
+  margin-right: 10px;
+}
+
+.header-top .lnr {
+  display: none;
+}
+
+.navbar-dark {
+  background: linear-gradient(to right, rgba(0, 45, 165, 0.97), rgba(10, 88, 157, 0.97), rgba(10, 88, 157, 0.97), rgba(0, 45, 165, 0.97));
+}
+
+.navbar-brand {
+  margin-right: 20px;
+}
+
+.nav-item {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-size: 80%;
+  padding: 0 .4rem;
+}
+
+.navbar .navbar-nav .nav-link {
+  transition: all .05s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link.active {
+  border-bottom: 1px solid white;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  border-bottom: 1px solid white;
+}
+
+.navbar-toggler:hover {
+  cursor: pointer;
+}
+
+#search-bar {
+  background-color: #5c87af;
+  color: white;
+  font-size: 14px;
+  width: 200px;
+  height: 30px;
+  transition: all .2s;
+  border: none;
+}
+
+#search-bar:hover {
+  background-color: #779ec1;
+}
+
+#search-bar:focus {
+  background-color: white;
+  color: #212529;
+  width: 400px;
+}
+
+#search-bar::-webkit-input-placeholder {
+  color: white !important;
+}
+
+#search-bar:-moz-placeholder {
+  /* Firefox 18- */
+  color: white !important;
+}
+
+#search-bar::-moz-placeholder {
+  /* Firefox 19+ */
+  color: white !important;
+}
+
+#search-bar:-ms-input-placeholder {
+  color: white !important;
+}
